@@ -12,7 +12,7 @@ export default class Api {
 
   get request() {
     const instance = axios.create({
-      baseURL: "http://localhost:5000",
+      baseURL: "https://food-shop-1phh.onrender.com",
     });
 
     instance.interceptors.request.use((config) => {
