@@ -37,6 +37,7 @@ const Login = () => {
       <AuthWrapper>
         <FormHeading>Login</FormHeading>
         <AuthForm onSubmit={handleSubmit(onSubmitHandler)}>
+          <p>Данные для входа: admin@gmail.com admin</p>
           <Controller
             name={"email"}
             control={control}
